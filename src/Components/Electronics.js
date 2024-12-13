@@ -14,7 +14,7 @@ export default function Electronics() {
   
   return (
     <Container>
-      <h1>All Products from : {catname}</h1>
+      <h1 className='text-center mt-4 fw-bold'>All Products from : {catname}</h1> <hr />
       <Showproduct products={allProducts}/>
     </Container>
   )
